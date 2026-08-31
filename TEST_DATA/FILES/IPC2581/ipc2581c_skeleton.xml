@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPC-2581 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://webstds.ipc.org/2581" revision="C">
+	<Content roleRef="">
+		<FunctionMode mode=""/>
+		<AvlRef name=""/>
+	</Content>
+	<LogisticHeader>
+		<Role id=""  roleFunction=""/>
+		<Enterprise code=""  id=""/>
+		<Person enterpriseRef=""  name=""  roleRef=""/>
+	</LogisticHeader>
+	<HistoryRecord lastChange=""  number=""  origination=""  software="">
+		<FileRevision comment=""  fileRevisionId="">
+			<SoftwarePackage name=""  revision=""  vendor="">
+				<Certification certificationStatus=""/>
+			</SoftwarePackage>
+		</FileRevision>
+		<ChangeRec application=""  change=""  datetime=""  personRef="">
+			<Approval datetime="01 CAPACITORS"  personRef="02 CERAMIC CHIP"/>
+		</ChangeRec>
+	</HistoryRecord>
+	<Bom name="">
+		<BomHeader assembly="0.3pF"  revision="0.05pF"/>
+		<BomItem category="EEE-01-CAP-0603"  quantity="COM-SPACE-SMT">
+			<Characteristics category=""/>
+		</BomItem>
+	</Bom>
+	<Ecad name="">
+		<CadHeader units=""/>
+		<CadData>
+			<Step name="">
+				<Component layerRef="" mountType="" weight="" modelRef="">
+					<Tuning value="" comment=""/>
+				</Component>
+			</Step>
+		</CadData>
+	</Ecad>
+	<Avl name="C0603">
+		<AvlHeader author="C0603CF"  datetime="MIL-PRF-55681"  source="RQS/APR-0077 ISS.1"/>
+		<AvlItem OEMDesignNumber="">
+			<AvlVmpn>
+				<AvlMpn name="DILABS (US)"/>
+				<AvlVendor enterpriseRef="01-CAP-CERAMIC"/>
+			</AvlVmpn>
+		</AvlItem>
+	</Avl>
+</IPC-2581>
+
